@@ -1,7 +1,7 @@
 # react-navigation-tutorial
 https://www.robinwieruch.de/react-native-navigation
 
-# defendency
+# dependency
 ```
 expo install @react-navigation/native
 expo install react-native-gesture-handler
