@@ -1,10 +1,14 @@
 import React from 'react';
-import { View, Text, StyleSheet } from 'react-native';
+import { View, Text, Button, StyleSheet } from 'react-native';
  
-const LandingScreen = () => {
+const LandingScreen = ({ navigation }) => {
   return (
     <View style={styles.container}>
       <Text>Public Landing Screen</Text>
+      <Button 
+        title="Go to Sign In" 
+        onPress={ () => navigation.navigate("Sign In") }
+      />
     </View>
   );
 };
