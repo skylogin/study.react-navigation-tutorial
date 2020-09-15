@@ -11,4 +11,5 @@ expo install react-native-safe-area-context
 expo install @react-native-community/masked-view
 expo install @react-navigation/stack
 expo install @react-navigation/drawer
+expo install @react-navigation/bottom-tabs
 ```
